@@ -1,15 +1,10 @@
-// Macro testPoissonLkl.C
-// Author: J. Rico
-// Date: Jan 2019
-// For beginners, to understand the basic works of a simple Lkl-based object
-// and, in particular, a standalone PoissonLkl object, configured with
-// different level of complexities (i.e. number of nuisance parameters)
-// IMPORTANT NOTE: for some still-to-be-understood "feature", macros
-// containing Lkl-based objects MUST be run in compiled mode, i.e.
-// run this macro with:
-// .x testPoissonLkl.C+
+#include <iostream>
+#include "TRolke.h"
+#include "PoissonLkl.h"
 
-void testPoissonLkl()
+using namespace std;
+
+int main()
 {
   // create and configure the simplest possible PoissonLkl object
   const Int_t Non = 130;

@@ -1,4 +1,5 @@
 .DS_Store
+.vscode
 *.a
 *.so
 *.o
@@ -14,4 +15,5 @@ results
 exported_files
 **/*.pcm
 old
+build
 .ipynb_checkpoints
